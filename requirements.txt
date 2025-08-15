@@ -1,0 +1,18 @@
+pandas
+numpy
+pytz
+requests
+aiohttp
+aiofiles
+python-telegram-bot[job-queue]
+dash
+dash-bootstrap-components
+pyttsx3
+# For Windows voice notifications
+pywin32; sys_platform == 'win32'
+# TA-Lib is a dependency that needs to be installed separately.
+# On Windows, you can download the wheel from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+# On Linux, you may need to install the TA-Lib C library first: sudo apt-get install libta-lib-dev
+TA-Lib
+fastapi
+uvicorn[standard]
